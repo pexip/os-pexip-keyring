@@ -1,0 +1,14 @@
+Source: pexip-keyring
+Section: misc
+Priority: optional
+Maintainer: Pexip AS <packaging@pexip.com>
+Build-Depends: debhelper (>=8)
+Standards-Version: 3.8.0
+
+Package: pexip-keyring
+Priority: important
+Architecture: all
+Multi-Arch: foreign
+Breaks: ubuntu-keyring
+Replaces: ubuntu-keyring
+Description: Pexip GPG keys.
