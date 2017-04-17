@@ -9,6 +9,4 @@ Package: pexip-keyring
 Priority: important
 Architecture: all
 Multi-Arch: foreign
-Breaks: ubuntu-keyring
-Replaces: ubuntu-keyring
 Description: Pexip GPG keys.

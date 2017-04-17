@@ -1,3 +1,9 @@
+pexip-keyring (2017.04.17) pexip; urgency=low
+
+  * debian/control: Drop Breaks/Replaces on ubuntu-keyring
+
+ -- John-Mark Bell <jmb@pexip.com>  Mon, 17 Apr 2017 14:16:03 +0100
+
 pexip-keyring (2015.09.02) pexip; urgency=low
 
   * Initial packaging
