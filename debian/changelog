@@ -1,3 +1,11 @@
+pexip-keyring (2018.07.30) pexip; urgency=low
+
+  * Add 2018 archive keys
+  * Retire old archive key
+  * Rework packaging
+
+ -- John-Mark Bell <jmb@pexip.com>  Mon, 30 Jul 2018 16:53:24 +0100
+
 pexip-keyring (2017.04.17) pexip; urgency=low
 
   * debian/control: Drop Breaks/Replaces on ubuntu-keyring

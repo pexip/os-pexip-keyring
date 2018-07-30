@@ -1,34 +1,16 @@
 #!/bin/sh
 
-KEYRING="/etc/apt/trusted.gpg"
+set -e
 
 if [ "$1" = "configure" ]; then
-    if [ -z "$2" ]; then
-        # Initial install. Ensure keyring does not exist (this might be
-        # an upgrade from an old install where keys were stored elsewere,
-        # so we forcibly remove them to ensure that only ours are trusted)
-        if [ -f $KEYRING ]; then
-            rm -f $KEYRING
-        fi
-    fi
-
-    # Create keyring if it does not exist
-    if [ ! -f $KEYRING ]; then
-        touch $KEYRING
-        chmod 0644 $KEYRING
-    fi
-
-    # Ensure keys are up to date
-    # This is made mildly more complex as we require a sufficiently modern version of apt
-    # but cannot enforce that dependency via the control file. Instead, check for it here,
-    # and only act if it's present. The postinst script for apt will also perform the key
-    # update when it is upgraded, so we can be sure that the keys will be updated.
-    if dpkg-query -W -f '${Status}' apt 2>/dev/null | grep -q 'install ok'; then
-        aptvsn=$(dpkg-query -W -f '${Version}' apt)
-        if dpkg --compare-versions "$aptvsn" 'gt' '0.8.16~exp12ubuntu10.22pexip2~'; then
-            if [ -x /usr/bin/apt-key ]; then
-                /usr/bin/apt-key update
-            fi
+    if dpkg --compare-versions "$2" 'lt-nl' '2018.07.30~' && which gpg >/dev/null && which apt-key >/dev/null; then
+        KEYRING="/etc/apt/trusted.gpg"
+        eval $(apt-config shell KEYFILE Apt::GPGV::TrustedKeyring)
+        eval $(apt-config shell KEYFILE Dir::Etc::Trusted/f)
+        if [ -e "$KEYFILE" ]; then
+            apt-key --keyring "$KEYFILE" del 4BE37A90 >/dev/null 2>&1 || :
         fi
     fi
 fi
+
+#DEBHELPER#

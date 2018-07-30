@@ -2,8 +2,8 @@ Source: pexip-keyring
 Section: misc
 Priority: optional
 Maintainer: Pexip AS <packaging@pexip.com>
-Build-Depends: debhelper (>=8)
-Standards-Version: 3.8.0
+Build-Depends: debhelper (>=10), gnupg
+Standards-Version: 4.1.2
 
 Package: pexip-keyring
 Priority: important
