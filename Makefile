@@ -7,8 +7,8 @@ pexip-archive-keyring.gpg: active-keys/*.gpg
 
 pexip-archive-removed-keys.gpg: removed-keys/*.gpg
 	cat $^ >$@
-	gpg --no-options --no-default-keyring --no-auto-check-trustdb --no-keyring --import-options import-export --import < $@ >/dev/null
-	gpg --no-options --no-default-keyring --no-auto-check-trustdb --no-keyring --list-packets <$@ | grep -q secret; test $$? = 1
+	if [ -s $@ ]; then gpg --no-options --no-default-keyring --no-auto-check-trustdb --no-keyring --import-options import-export --import < $@ >/dev/null; fi
+	if [ -s $@ ]; then gpg --no-options --no-default-keyring --no-auto-check-trustdb --no-keyring --list-packets <$@ | grep -q secret; test $$? = 1; fi
 
 clean:
 	rm -f pexip-archive-keyring.gpg pexip-archive-removed-keys.gpg
