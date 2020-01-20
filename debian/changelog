@@ -1,3 +1,10 @@
+pexip-keyring (2020.01.20) pexip; urgency=low
+
+  * Retire 2018 archive keys
+  * Add v23 archive keys
+
+ -- John-Mark Bell <jmb@pexip.com>  Mon, 20 Jan 2020 21:05:30 +0000
+
 pexip-keyring (2018.11.07) pexip; urgency=low
 
   * Reinstate old archive key for now
