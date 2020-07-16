@@ -1,3 +1,9 @@
+pexip-keyring (2020.06.18) pexip; urgency=medium
+
+  * Rebuild in buster environment
+
+ -- Steve McIntyre <steve.mcintyre@pexip.com>  Thu, 16 Jul 2020 03:09:07 +0000
+
 pexip-keyring (2020.06.17) pexip; urgency=low
 
   * Retire v23 archive keys
