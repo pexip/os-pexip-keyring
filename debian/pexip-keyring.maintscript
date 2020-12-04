@@ -2,3 +2,5 @@ rm_conffile /etc/apt/trusted.gpg.d/pexip-as-longterm-key-2018.gpg 2020.01.20~
 rm_conffile /etc/apt/trusted.gpg.d/pexip-as-release-key-2018.gpg 2020.01.20~
 rm_conffile /etc/apt/trusted.gpg.d/pexip-as-longterm-key-v23.gpg 2020.06.17~
 rm_conffile /etc/apt/trusted.gpg.d/pexip-as-release-key-v23.gpg 2020.06.17~
+rm_conffile /etc/apt/trusted.gpg.d/pexip-as-longterm-key-v24.gpg 2020.12.04~
+rm_conffile /etc/apt/trusted.gpg.d/pexip-as-release-key-v24.gpg 2020.12.04~

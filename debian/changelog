@@ -1,3 +1,10 @@
+pexip-keyring (2020.12.04) pexip; urgency=low
+
+  * Retire v24 archive keys
+  * Add v25 archive keys
+
+ -- John-Mark Bell <jmb@pexip.com>  Fri, 04 Dec 2020 12:55:54 +0000
+
 pexip-keyring (2020.06.18) pexip; urgency=medium
 
   * Rebuild in buster environment
