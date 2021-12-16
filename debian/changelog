@@ -1,3 +1,10 @@
+pexip-keyring (2021.12.16) pexip; urgency=medium
+
+  * Retire v26 archive keys
+  * Add v27 archite keys
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Thu, 16 Dec 2021 11:47:45 +0000
+
 pexip-keyring (2021.06.14) pexip; urgency=low
 
   * Retire v25 archive keys
