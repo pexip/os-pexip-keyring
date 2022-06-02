@@ -1,3 +1,9 @@
+pexip-keyring (2022.05.11pexip1) pexip; urgency=medium
+
+  * Initial bullseye build
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Thu, 02 Jun 2022 14:42:41 +0100
+
 pexip-keyring (2022.05.11) pexip; urgency=medium
 
   * Add v29 archive keys.
