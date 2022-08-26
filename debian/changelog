@@ -1,3 +1,15 @@
+pexip-keyring (2022.08.26+deb11u1) pexip-bullseye; urgency=medium
+
+  * Rebuild for bullseye with v30 keys.
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Fri, 26 Aug 2022 12:58:13 +0100
+
+pexip-keyring (2022.08.26) pexip; urgency=medium
+
+  * Add v30 archive keys.
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Fri, 26 Aug 2022 12:47:34 +0100
+
 pexip-keyring (2022.05.11pexip2) pexip-bullseye; urgency=medium
 
   * Main bullseye build
