@@ -1,3 +1,9 @@
+pexip-keyring (2022.08.26) pexip; urgency=medium
+
+  * Add v30 archive keys.
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Fri, 26 Aug 2022 12:47:34 +0100
+
 pexip-keyring (2022.05.11) pexip; urgency=medium
 
   * Add v29 archive keys.
