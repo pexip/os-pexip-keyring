@@ -1,3 +1,9 @@
+pexip-keyring (2023.01.09) pexip; urgency=medium
+
+  * Add v31 archive keys.
+
+ -- Steve McIntyre <steve.mcintyre@pexip.com>  Mon, 09 Jan 2023 15:39:58 +0100
+
 pexip-keyring (2022.08.26+deb11u1pexip1) pexip-bullseye; urgency=medium
 
   * Bullseye rebuild for ARM64 inclusion
