@@ -1,3 +1,9 @@
+pexip-keyring (2023.03.02) pexip; urgency=medium
+
+  * Add v32 archive keys.
+
+ -- Steve McIntyre <steve.mcintyre@pexip.com>  Thu, 02 Mar 2023 14:39:06 +0000
+
 pexip-keyring (2023.01.09) pexip; urgency=medium
 
   * Add v31 archive keys.
