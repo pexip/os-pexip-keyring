@@ -1,3 +1,9 @@
+pexip-keyring (2024.01.12pexip1) pexip-bookworm; urgency=medium
+
+  * Add v34 archive keys.
+
+ -- Steve McIntyre <steve.mcintyre@pexip.com>  Fri, 12 Jan 2024 10:59:39 +0000
+
 pexip-keyring (2023.08.01pexip2) pexip-bookworm; urgency=medium
 
   * Bookworm build for product distribution
