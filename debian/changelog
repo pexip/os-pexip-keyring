@@ -1,3 +1,9 @@
+pexip-keyring (2024.02.01+pexip24u1) pexip-bookworm; urgency=medium
+
+  * Add 2024 archive keys.
+
+ -- Steve McIntyre <steve.mcintyre@pexip.com>  Thu, 01 Feb 2024 17:48:20 +0000
+
 pexip-keyring (2024.01.12+pexip24u2) pexip-bookworm; urgency=medium
 
   * New versioning scheme
