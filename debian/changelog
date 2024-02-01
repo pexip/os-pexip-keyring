@@ -1,3 +1,9 @@
+pexip-keyring (2024.01.12+pexip24u2) pexip-bookworm; urgency=medium
+
+  * New versioning scheme
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Thu, 01 Feb 2024 16:16:11 +0000
+
 pexip-keyring (2024.01.12pexip1) pexip-bookworm; urgency=medium
 
   * Add v34 archive keys.
