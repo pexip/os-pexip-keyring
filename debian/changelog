@@ -1,4 +1,4 @@
-pexip-keyring (2024.03.01+pexip24u1) pexip-bookworm; urgency=medium
+pexip-keyring (2024.03.01+pexip24u1) pexip; urgency=medium
 
   * Retire old archive keys:
     * 2013
