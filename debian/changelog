@@ -1,3 +1,14 @@
+pexip-keyring (2024.03.01+pexip24u1) pexip-bookworm; urgency=medium
+
+  * Retire old archive keys:
+    * 2013
+    * v27
+    * v28
+    * v29
+    * v30
+
+ -- Steve McIntyre <steve.mcintyre@pexip.com>  Fri, 01 Mar 2024 17:23:59 +0000
+
 pexip-keyring (2024.02.01+pexip24u1) pexip-bookworm; urgency=medium
 
   * Add 2024 archive keys.
