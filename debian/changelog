@@ -1,3 +1,9 @@
+pexip-keyring (2025.04.28+pexip24u1) pexip; urgency=medium
+
+  * Add 2025 archive keys.
+
+ -- Steve McIntyre <steve.mcintyre@pexip.com>  Mon, 28 Apr 2025 12:32:19 +0100
+
 pexip-keyring (2024.03.01+pexip24u1) pexip; urgency=medium
 
   * Retire old archive keys:
