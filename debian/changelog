@@ -1,3 +1,9 @@
+pexip-keyring (2025.04.28+pexip25u1) pexip-trixie; urgency=medium
+
+  * Initial trixie build
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Tue, 29 Apr 2025 22:50:11 +0100
+
 pexip-keyring (2025.04.28+pexip24u1) pexip; urgency=medium
 
   * Add 2025 archive keys.
