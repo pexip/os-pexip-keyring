@@ -1,3 +1,9 @@
+pexip-keyring (2026.02.06+pexip25u1) pexip-trixie; urgency=medium
+
+  * Add 2026 archive keys.
+
+ -- Steve McIntyre <steve.mcintyre@pexip.com>  Fri, 06 Feb 2026 16:20:26 +0000
+
 pexip-keyring (2025.04.28+pexip25u2) pexip-trixie; urgency=medium
 
   * Trixie build for product distribution
